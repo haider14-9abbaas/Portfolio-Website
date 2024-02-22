@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Syed Haider Abbas Zaidi</a>
+        <!-- Add toggle button for responsive nav -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Add links for navigation -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="py-5">
+    <div class="container text-center">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="./Images/Screenshot 2024-02-17 013613.png" alt="Profile Picture" class="img-fluid rounded-circle profile-pic">
+            </div>
+            <div class="col-md-6"><br>
+                <h1>Hello, I'm Syed Haider Abbas Zaidi</h1>
+                <h4>Welcome to my portfolio website.</h4>
+                <!-- Add social links here -->
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container text-center">
+        <h1 id="abouthead"> About </h1>
+        <p>My name is Syed Haider Abbas Zaidi. I am a student currently enrolled in Bachelors Program of Cyber Security. I have a passion for Web & Mobile App Development and enjoy practising and developing my skills through <strong> Saylani Mass IT Program. </strong></p>
+        <p>Some of my key skills include:</p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Digital Marketing</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    
+    </div>
+</section>
+<!-- Qualification Section -->
+<section id="qualification" class="py-5">
+    <div class="container text-center">
+        <h1 id="qualifichead">Qualification</h1>
+        <div class="qualification-item">
+            <strong>Matriculation</strong>
+            <p>Habib Public School, R2V9+98P, Moulavi Tamizuddin Khan RD, Sultanabad Karachi, Sindh 74200.</p>
+        </div>
+        <div class="qualification-item">
+            <strong>Intermediate</strong>
+            <p>S.M Government Science College, V223+HWF, Shahrah-e-Liaquat, Seari Quarters, Karachi, Sindh.</p>
+        </div>
+        <div class="qualification-item">
+            <strong>Graduation</strong>
+            <p>Dawood University of Engineering & Technology Karachi, New M. A. Jinnah RD, Jamshed Quarters Muslimabad, Karachi, Sindh 74800.</p>
+        </div>
+    </div>
+</section>
+
+
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5">
+    <div class="container">
+        <h1 class="text-center mb-4" id="porthead">Portfolio</h1>
+        <div class="row">
+            <!-- Portfolio Item 1 -->
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Loading Page</h5>
+                        <p class="card-text">In this project I have developed a page which features a landing page which shows loading animation.</p>
+                        <a href="https://haider14-9abbaas.github.io/Loading-Animation-Page/" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Portfolio Item 2 -->
+            <div class="col-lg-4 col-md-6 col-sm-12mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Facebook Login/Signup Page</h5>
+                        <p class="card-text">In this project I have developed a page features a log in/sign up page of Facebook created with HTML5 and CSS3.</p>
+                        <a href="https://resplendent-gumdrop-ed4cbe.netlify.app/" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                    </div>
+                    </div>
+                    </div>
+                    <!-- Portfolio Item 3 -->
+            <div class="col-lg-4 col-md-6 col-sm-6 mb-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">My Resume</h5>
+                        <p class="card-text">This project contains a landing page website which features my Resume created with HTML5 and CSS3</p>
+                        <a href="https://haider14-9abbaas.github.io/Resume-Template/" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more portfolio items as needed -->
+        </div>
+    </div>
+</section>
+                    
+
+
+<!-- Contact Section -->
+<section id="contact" class="py-5">
+    <div class="container">
+        <h1 class="text-center mb-4" id="contacthead">Contact </h1>
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Contact Form -->
+                <form action="contact.php" method="post">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Your Name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Your Email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" placeholder="Message" name="message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+            <br>
+            <div class="col-md-6">
+                <br>
+                <!-- Contact Information -->
+                <h3>Contact Information</h3>
+                <p>Email: haiderzaidi290@gmail.com</p>
+                <p>Phone: +92-3363036197</p>
+                <p>Address: House #123 ABC Street,Karachi,Pakistan.</p>
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                    <!-- Social Media Links -->
+                    <h4>Connect with Me</h4>
+                    <div class="social-links">
+                        <p>LinkedIn<a href="https://www.linkedin.com/in/haider-abbas-132525215/" target= "_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/plasticine/100/000000/linkedin.png" width="50" /></a>
+                        </p>
+                        <p>Github<a href="https://github.com/haider14-9abbaas"><img src="https://img.icons8.com/plasticine/100/000000/github.png" width="50" alt=""></a>
+
+                            
+                        
+                        <!-- Add more social media links as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+           
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>© 2024 Syed Haider Abbas Zaidi</p>
+</footer>
+
+</body>
+</html>

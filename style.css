@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    transition: transform 3s;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    position: static;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+/* Home Section */
+#home {
+    background-color: #274C77;
+    padding: 100px 0;
+    color: #E7ECEF;
+}
+
+.profile-pic {
+    border: 8px solid #fff;
+    border-radius: 10%;
+    transition: transform 0.5s ease-out;
+}
+
+.profile-pic:hover {
+    transform: scale(0.7);
+}
+
+/* About Section */
+#about {
+    background-color: #E7ECEF;
+    padding: 100px 0;
+    color: #274C77;
+    
+}
+#abouthead{
+    color: #000000;
+}
+#qualification {
+    background-color: #E7ECEF;
+    padding: 100px 0;
+    color: #274C77;
+
+}
+#qualifichead{
+    color: #000000;
+}
+
+/* Portfolio Section */
+#portfolio {
+    background-color: #E7ECEF;
+    padding: 100px 0;
+    color: #274C77;
+}
+#porthead{
+    color: #000000;
+}
+
+.card {
+    background-color: #f8f9fa;
+    transition: transform 0.3s ease-in-out;
+    color: #333;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Contact Section */
+#contact {
+    background-color: #E7ECEF;
+    padding: 100px 0;
+    color: #274C77;
+}
+#contacthead{
+    color:#000000;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 15px;
+    }
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
