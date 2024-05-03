@@ -107,6 +107,17 @@ footer {
     color: #fff;
     padding: 20px 0;
 }
+#downloadBtn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Button padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+#downloadBtn:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
 
 /* Media Queries */
 @media (max-width: 768px) {
